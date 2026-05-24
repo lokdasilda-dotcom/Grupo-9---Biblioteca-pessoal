@@ -12,7 +12,6 @@ def menu():
     print("7 - Sair")
 
 def main():
-    """Controla o funcionamento principal do sistema."""
     while True:
         menu()
         opcao = input("Escolha uma opção: ").strip()
